@@ -22,4 +22,3 @@ async def number(user_id: int) -> str:
 async def info(username: str, age: int) -> str:
     return f"Информация о пользователе. Имя: {username}, Возраст: {age}"
 
-#python3 -m uvicorn module_16_1:app
